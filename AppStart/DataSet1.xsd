@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TastMast" msprop:Generator_TableClassName="TastMastDataTable" msprop:Generator_TableVarName="tableTastMast" msprop:Generator_TablePropName="TastMast" msprop:Generator_RowDeletingName="TastMastRowDeleting" msprop:Generator_RowChangingName="TastMastRowChanging" msprop:Generator_RowEvHandlerName="TastMastRowChangeEventHandler" msprop:Generator_RowDeletedName="TastMastRowDeleted" msprop:Generator_UserTableName="TastMast" msprop:Generator_RowChangedName="TastMastRowChanged" msprop:Generator_RowEvArgName="TastMastRowChangeEvent" msprop:Generator_RowClassName="TastMastRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:string" minOccurs="0" />
+              <xs:element name="Url" msprop:Generator_ColumnVarNameInTable="columnUrl" msprop:Generator_ColumnPropNameInRow="Url" msprop:Generator_ColumnPropNameInTable="UrlColumn" msprop:Generator_UserColumnName="Url" type="xs:string" minOccurs="0" />
+              <xs:element name="TastNm" msprop:Generator_ColumnVarNameInTable="columnTastNm" msprop:Generator_ColumnPropNameInRow="TastNm" msprop:Generator_ColumnPropNameInTable="TastNmColumn" msprop:Generator_UserColumnName="TastNm" type="xs:string" minOccurs="0" />
+              <xs:element name="InfoStr" msprop:Generator_ColumnVarNameInTable="columnInfoStr" msprop:Generator_ColumnPropNameInRow="InfoStr" msprop:Generator_ColumnPropNameInTable="InfoStrColumn" msprop:Generator_UserColumnName="InfoStr" type="xs:string" minOccurs="0" />
+              <xs:element name="LoginUrl" msprop:Generator_ColumnVarNameInTable="columnLoginUrl" msprop:Generator_ColumnPropNameInRow="LoginUrl" msprop:Generator_ColumnPropNameInTable="LoginUrlColumn" msprop:Generator_UserColumnName="LoginUrl" type="xs:string" minOccurs="0" />
+              <xs:element name="UserID" msprop:Generator_ColumnVarNameInTable="columnUserID" msprop:Generator_ColumnPropNameInRow="UserID" msprop:Generator_ColumnPropNameInTable="UserIDColumn" msprop:Generator_UserColumnName="UserID" type="xs:string" minOccurs="0" />
+              <xs:element name="UserInputId" msprop:Generator_ColumnVarNameInTable="columnUserInputId" msprop:Generator_ColumnPropNameInRow="UserInputId" msprop:Generator_ColumnPropNameInTable="UserInputIdColumn" msprop:Generator_UserColumnName="UserInputId" type="xs:string" minOccurs="0" />
+              <xs:element name="Pwd" msprop:Generator_ColumnVarNameInTable="columnPwd" msprop:Generator_ColumnPropNameInRow="Pwd" msprop:Generator_ColumnPropNameInTable="PwdColumn" msprop:Generator_UserColumnName="Pwd" type="xs:string" minOccurs="0" />
+              <xs:element name="PwdInputId" msprop:Generator_ColumnVarNameInTable="columnPwdInputId" msprop:Generator_ColumnPropNameInRow="PwdInputId" msprop:Generator_ColumnPropNameInTable="PwdInputIdColumn" msprop:Generator_UserColumnName="PwdInputId" type="xs:string" minOccurs="0" />
+              <xs:element name="LoginBtnId" msprop:Generator_ColumnVarNameInTable="columnLoginBtnId" msprop:Generator_ColumnPropNameInRow="LoginBtnId" msprop:Generator_ColumnPropNameInTable="LoginBtnIdColumn" msprop:Generator_UserColumnName="LoginBtnId" type="xs:string" minOccurs="0" />
+              <xs:element name="isAMZPRO" msprop:Generator_ColumnVarNameInTable="columnisAMZPRO" msprop:Generator_ColumnPropNameInRow="isAMZPRO" msprop:Generator_ColumnPropNameInTable="isAMZPROColumn" msprop:Generator_UserColumnName="isAMZPRO" type="xs:string" minOccurs="0" />
+              <xs:element name="SearchKey" msprop:Generator_ColumnVarNameInTable="columnSearchKey" msprop:Generator_ColumnPropNameInRow="SearchKey" msprop:Generator_ColumnPropNameInTable="SearchKeyColumn" msprop:Generator_UserColumnName="SearchKey" type="xs:string" minOccurs="0" />
+              <xs:element name="SearchInputID" msprop:Generator_ColumnVarNameInTable="columnSearchInputID" msprop:Generator_ColumnPropNameInRow="SearchInputID" msprop:Generator_ColumnPropNameInTable="SearchInputIDColumn" msprop:Generator_UserColumnName="SearchInputID" type="xs:string" minOccurs="0" />
+              <xs:element name="SearchBtnID" msprop:Generator_ColumnVarNameInTable="columnSearchBtnID" msprop:Generator_ColumnPropNameInRow="SearchBtnID" msprop:Generator_ColumnPropNameInTable="SearchBtnIDColumn" msprop:Generator_UserColumnName="SearchBtnID" type="xs:string" minOccurs="0" />
+              <xs:element name="AMZxpath" msprop:Generator_ColumnVarNameInTable="columnAMZxpath" msprop:Generator_ColumnPropNameInRow="AMZxpath" msprop:Generator_ColumnPropNameInTable="AMZxpathColumn" msprop:Generator_UserColumnName="AMZxpath" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
